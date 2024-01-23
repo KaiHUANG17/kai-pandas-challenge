@@ -16,6 +16,15 @@ It is worth mentioning that when the number of students in a school increases, t
 https://pandas.pydata.org/docs/reference/api/pandas.cut.html/
 
 Chatgpt
+- summary_metrics["Per Student Budget"] = pd.to_numeric(summary_metrics["Per Student Budget"].replace('[\$,]', '', regex=True))
+
+
+spending_bins = [0, 585, 630, 645, 680]
+labels = ["<$585", "$585-630", "$630-645", "$645-680"]
+
+
+summary_metrics["Spending Ranges (Per Student)"] = pd.cut(summary_metrics["Per Student Budget"], bins=spending_bins, labels=labels, include_lowest=True)
+
 
 Google
 
