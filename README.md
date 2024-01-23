@@ -11,3 +11,9 @@ There are 15 schools with 39,170 students and a total budget of $24,649,428. The
 Schools that spend between $585 and $630 have higher pass rates than those in other districts. The same schools with fewer students have higher pass rates. independent schools also get better results than state schools
 
 It is worth mentioning that when the number of students in a school increases, the average math score, the average reading score, the math pass rate, the reading pass rate, and the overall pass rate all decrease. Therefore, we can infer that when the number of students increases, it will have a negative impact on student achievement. Therefore, schools should try to solve the problem of the number of students in schools and classes, because it directly affects students' achievements.
+
+## References
+https://pandas.pydata.org/docs/reference/api/pandas.cut.html
+Chatgpt
+Google
+the pd.cut function is used to categorize values into bins defined by the bins parameter. The resulting DataFrame includes a new column 'bins' indicating the bin intervals for each value.
